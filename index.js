@@ -1,11 +1,11 @@
 
-import path from 'path';
-import fs from 'fs-extra';
-import {spawn, exec} from 'child_process';
-import https from 'https';
-import appRootPath from 'app-root-path';
-import git from 'simple-git';
-import Logger from 'simple-logger';
+const path = require('path')
+const fs = require('fs-extra')
+const {spawn, exec} = require('child_process')
+const https = require('https')
+const appRootPath = require('app-root-path')
+const git = require('simple-git')
+const Logger = require('simple-logger')
 
 /** 
  * @typedef Config - Configuration for Auto Git Update
