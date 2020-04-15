@@ -34,7 +34,7 @@ log.logError   = true;
 log.logDetail  = false;
 log.logDebug   = false;
 
-export default class AutoGitUpdate {
+module.exports = class AutoGitUpdate {
     /**
      * Creates an object which can be used to automatically update an application from a remote git repository. 
      * @param {Config} updateConfig 
